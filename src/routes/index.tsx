@@ -86,6 +86,11 @@ function Index() {
           <span className="label text-muted-foreground">The Central Bank</span>
         </header>
 
+        {/* Big title */}
+        <h1 className="pt-14 text-center text-5xl leading-none font-semibold tracking-tight sm:pt-20 sm:text-7xl">
+          Standard Mechanics
+        </h1>
+
         {/* Opening */}
         <section className="pt-14 sm:pt-20">
           <h1 className="max-w-3xl text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
