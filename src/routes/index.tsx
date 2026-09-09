@@ -141,19 +141,30 @@ function Index() {
             </p>
           </div>
 
-          <div className="relative">
-            <BankCanvas state={state} />
-            <IssuanceRate state={state} />
-            <FeeRouting state={state} />
-            <Licenses state={state} />
-            <Exits state={state} />
-            <span
-              key={state}
-              className="label animate-fade-in absolute left-1/2 -translate-x-1/2 text-sm tracking-widest uppercase"
-              style={{ top: "calc(50% + 42px)", color: accent }}
-            >
-              {positive ? "Expansion mode" : "Contraction mode"}
-            </span>
+          <div className="grid grid-cols-1 items-center gap-10 px-6 py-10 sm:grid-cols-[1fr_minmax(0,1.6fr)_1fr] sm:gap-6 sm:px-10">
+            {/* left column */}
+            <div className="order-2 flex flex-col items-center gap-12 sm:order-1">
+              <IssuanceRate state={state} />
+              <FeeRouting state={state} />
+            </div>
+
+            {/* center canvas */}
+            <div className="relative order-1 sm:order-2">
+              <BankCanvas state={state} />
+              <span
+                key={state}
+                className="label animate-fade-in absolute left-1/2 -translate-x-1/2 text-sm tracking-widest uppercase"
+                style={{ top: "calc(50% + 42px)", color: accent }}
+              >
+                {positive ? "Expansion mode" : "Contraction mode"}
+              </span>
+            </div>
+
+            {/* right column */}
+            <div className="order-3 flex flex-col items-center gap-12">
+              <Licenses state={state} />
+              <Exits state={state} />
+            </div>
           </div>
         </section>
 
