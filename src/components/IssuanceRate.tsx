@@ -52,17 +52,37 @@ export function IssuanceRate({ state }: { state: State }) {
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <div
             key={state}
-            className="flex h-9 w-9 items-center justify-center rounded-full border text-xs font-semibold"
+            className="relative h-9 w-9"
             style={{
-              borderColor: accent,
-              color: accent,
-              backgroundColor: "color-mix(in srgb, var(--paper) 82%, transparent)",
               animation: positive
                 ? "issuance-mint 2.6s ease-in-out infinite"
                 : "none",
             }}
           >
-            S
+            <svg viewBox="0 0 36 36" className="h-full w-full" fill="none">
+              {/* reeded edge: many short radial dashes around the rim */}
+              <circle
+                cx="18"
+                cy="18"
+                r="16.5"
+                stroke={accent}
+                strokeWidth="2.5"
+                strokeDasharray="1.5 2.37"
+                fill="color-mix(in srgb, var(--paper) 82%, transparent)"
+              />
+              {/* inner rim */}
+              <circle cx="18" cy="18" r="13" stroke={accent} strokeWidth="1.2" />
+              <text
+                x="18"
+                y="22.5"
+                textAnchor="middle"
+                fontSize="12"
+                fontWeight="600"
+                fill={accent}
+              >
+                S
+              </text>
+            </svg>
           </div>
 
           {positive && (

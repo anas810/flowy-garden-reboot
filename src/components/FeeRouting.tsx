@@ -41,7 +41,10 @@ export function FeeRouting({ state }: { state: State }) {
         </div>
 
         {/* destination: vault or furnace */}
-        <div className="relative flex h-14 w-12 items-center justify-center">
+        <div
+          className="relative flex h-14 w-12 items-center justify-center"
+          style={positive ? undefined : { transform: "translateX(-10px)" }}
+        >
           {positive ? (
             /* vault */
             <svg
