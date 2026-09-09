@@ -7,7 +7,7 @@ export function Exits({ state }: { state: State }) {
 
   return (
     <div
-      className="exits pointer-events-none absolute right-8 bottom-8 flex w-40 flex-col items-center sm:right-14 sm:bottom-10 sm:w-48"
+      className="exits pointer-events-none flex w-48 flex-col items-center"
       aria-hidden="true"
     >
       <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">

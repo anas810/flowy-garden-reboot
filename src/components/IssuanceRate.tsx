@@ -6,7 +6,7 @@ export function IssuanceRate({ state }: { state: State }) {
 
   return (
     <div
-      className="issuance-rate pointer-events-none absolute left-8 top-8 flex w-40 flex-col items-center sm:left-14 sm:top-10 sm:w-48"
+      className="issuance-rate pointer-events-none flex w-48 flex-col items-center"
       aria-hidden="true"
     >
       <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
