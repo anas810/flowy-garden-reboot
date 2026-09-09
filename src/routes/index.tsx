@@ -92,7 +92,7 @@ function Index() {
         </h1>
 
         {/* Opening */}
-        <section className="pt-14 sm:pt-20">
+        <section className="pt-4 sm:pt-6">
           <h2 className="whitespace-nowrap text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
             All volume passes through the pool.
             <br />
@@ -108,7 +108,7 @@ function Index() {
         </section>
 
         {/* Toggle + animation */}
-        <section className="mt-20 border border-hairline bg-paper sm:mt-28">
+        <section className="mt-6 border border-hairline bg-paper sm:mt-8">
           <div className="flex flex-col items-center gap-4 border-b border-hairline px-6 py-8">
             <span className="label text-muted-foreground">Net capital flow</span>
             <button
@@ -174,7 +174,7 @@ function Index() {
         </section>
 
         {/* State panel */}
-        <section key={state} className="mt-16 animate-fade-in sm:mt-20">
+        <section key={state} className="mt-6 animate-fade-in sm:mt-8">
           <span className="label" style={{ color: accent }}>
             {copy.tag}
           </span>
