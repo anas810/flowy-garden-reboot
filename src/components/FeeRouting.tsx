@@ -9,11 +9,11 @@ export function FeeRouting({ state }: { state: State }) {
       className="fee-routing pointer-events-none flex w-48 flex-col items-center"
       aria-hidden="true"
     >
-      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-3 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
         Fee routing
       </span>
 
-      <div className="relative mt-1 flex h-28 w-full items-center justify-center">
+      <div className="relative mt-0 flex h-28 w-full items-start justify-center">
         {/* fees source */}
         <span
           className="label block w-10 text-center text-[9px] tracking-widest"
