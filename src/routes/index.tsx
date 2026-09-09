@@ -93,7 +93,7 @@ function Index() {
 
         {/* Opening */}
         <section className="pt-14 sm:pt-20">
-          <h2 className="max-w-3xl text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
+          <h2 className="whitespace-nowrap text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
             All volume passes through the pool.
             <br />
             <span style={{ color: accent, transition: "color 700ms ease" }}>
