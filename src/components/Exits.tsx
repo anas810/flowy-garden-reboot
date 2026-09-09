@@ -10,7 +10,7 @@ export function Exits({ state }: { state: State }) {
       className="exits pointer-events-none flex w-48 flex-col items-center"
       aria-hidden="true"
     >
-      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-4 w-full items-center justify-center -translate-x-2 text-center text-[10px] text-muted-foreground">
         Exits
       </span>
 
