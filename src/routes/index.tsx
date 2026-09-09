@@ -153,7 +153,7 @@ function Index() {
               <BankCanvas state={state} />
               <span
                 key={state}
-                className="label animate-fade-in absolute left-1/2 -translate-x-1/2 text-sm tracking-widest uppercase"
+                className="label animate-fade-in absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-sm tracking-widest uppercase"
                 style={{ top: "calc(50% + 42px)", color: accent }}
               >
                 {positive ? "Expansion mode" : "Contraction mode"}
