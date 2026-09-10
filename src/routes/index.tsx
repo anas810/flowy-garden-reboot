@@ -79,7 +79,7 @@ function Index() {
       className="min-h-screen bg-background text-ink"
       style={{ ["--accent-active" as string]: accent }}
     >
-      <div className="mx-auto w-full max-w-5xl px-6 pb-24 pt-14 sm:px-10">
+      <div className="mx-auto w-full max-w-5xl px-6 pb-24 pt-6 sm:px-10">
         {/* Header */}
         <header className="flex items-baseline justify-between border-b border-hairline pb-5">
           <span className="label">Standard Reserve</span>
