@@ -92,7 +92,7 @@ function Index() {
         </h1>
 
         {/* Opening */}
-        <section className="pt-4 sm:pt-6">
+        <section className="pt-2 sm:pt-3">
           <h2 className="whitespace-nowrap text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
             All volume passes through the pool.
             <br />
