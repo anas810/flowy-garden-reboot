@@ -87,7 +87,7 @@ function Index() {
         </header>
 
         {/* Big title */}
-        <h1 className="pt-14 text-center text-5xl leading-none font-semibold tracking-tight sm:pt-20 sm:text-7xl">
+        <h1 className="pt-6 text-center text-5xl leading-none font-semibold tracking-tight sm:pt-8 sm:text-7xl">
           Standard Mechanics
         </h1>
 
