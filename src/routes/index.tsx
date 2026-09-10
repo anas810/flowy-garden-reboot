@@ -100,7 +100,7 @@ function Index() {
               Net flow decides the epoch.
             </span>
           </h2>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
             Every charter, entry, withdrawal and exit routes through one Hooked V4
             pool. The trading fees land with the central bank, and the direction of
             capital sets what the bank does next.
