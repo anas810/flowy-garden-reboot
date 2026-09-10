@@ -171,6 +171,13 @@ function Index() {
               <Exits state={state} />
             </div>
           </div>
+
+          {/* Rational move */}
+          <div className="flex justify-center px-6 pb-2 sm:px-10">
+            <div className="w-full max-w-sm">
+              <RationalMove state={state} />
+            </div>
+          </div>
         </section>
 
         {/* State panel */}

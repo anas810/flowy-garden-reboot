@@ -119,6 +119,8 @@ export function RationalMove({ state }: { state: State }) {
         .breath-ring {
           animation: breath-ring 4s ease-out infinite;
           stroke-width: 1;
+          transform-box: fill-box;
+          transform-origin: center;
         }
         .breath-ring-late {
           animation-delay: 2s;
