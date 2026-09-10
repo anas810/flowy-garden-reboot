@@ -5,6 +5,7 @@ import { IssuanceRate } from "@/components/IssuanceRate";
 import { FeeRouting } from "@/components/FeeRouting";
 import { Licenses } from "@/components/Licenses";
 import { Exits } from "@/components/Exits";
+import { RationalMove } from "@/components/RationalMove";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -169,6 +170,13 @@ function Index() {
             <div className="order-3 flex flex-col items-center gap-12">
               <Licenses state={state} />
               <Exits state={state} />
+            </div>
+          </div>
+
+          {/* Rational move */}
+          <div className="flex justify-center px-6 pb-2 sm:px-10">
+            <div className="w-full max-w-sm">
+              <RationalMove state={state} />
             </div>
           </div>
         </section>
