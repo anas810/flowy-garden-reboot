@@ -108,7 +108,7 @@ function Index() {
         </section>
 
         {/* Toggle + animation */}
-        <section className="mt-6 border border-hairline bg-paper sm:mt-8">
+        <section className="mt-3 border border-hairline bg-paper sm:mt-4">
           <div className="flex flex-col items-center gap-3 border-b border-hairline px-6 py-5">
             <span className="label text-muted-foreground">Net capital flow</span>
             <button
