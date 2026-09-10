@@ -154,7 +154,7 @@ function Index() {
             </div>
 
             {/* center canvas */}
-            <div className="relative -mt-8 order-1 sm:order-2">
+            <div className="relative -mt-20 order-1 sm:order-2">
               <BankCanvas state={state} />
               <span
                 key={state}
