@@ -169,7 +169,7 @@ export function BankCanvas({ state }: { state: State }) {
     <canvas
       ref={canvasRef}
       aria-hidden="true"
-      className="h-[380px] w-full sm:h-[460px]"
+      className="h-[360px] w-full sm:h-[400px]"
     />
   );
 }
