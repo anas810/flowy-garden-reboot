@@ -79,7 +79,7 @@ function Index() {
       className="min-h-screen bg-background text-ink"
       style={{ ["--accent-active" as string]: accent }}
     >
-      <div className="mx-auto w-full max-w-5xl px-6 pb-24 pt-6 sm:px-10">
+      <div className="mx-auto w-full max-w-5xl px-6 pb-24 pt-14 sm:px-10">
         {/* Header */}
         <header className="flex items-baseline justify-between border-b border-hairline pb-5">
           <span className="label">Standard Reserve</span>
@@ -87,12 +87,12 @@ function Index() {
         </header>
 
         {/* Big title */}
-        <h1 className="pt-6 text-center text-5xl leading-none font-semibold tracking-tight sm:pt-8 sm:text-7xl">
+        <h1 className="pt-14 text-center text-5xl leading-none font-semibold tracking-tight sm:pt-20 sm:text-7xl">
           Standard Mechanics
         </h1>
 
         {/* Opening */}
-        <section className="pt-2 sm:pt-3">
+        <section className="pt-4 sm:pt-6">
           <h2 className="whitespace-nowrap text-4xl leading-[1.05] font-semibold tracking-tight sm:text-6xl">
             All volume passes through the pool.
             <br />
@@ -100,7 +100,7 @@ function Index() {
               Net flow decides the epoch.
             </span>
           </h2>
-          <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             Every charter, entry, withdrawal and exit routes through one Hooked V4
             pool. The trading fees land with the central bank, and the direction of
             capital sets what the bank does next.
@@ -108,7 +108,7 @@ function Index() {
         </section>
 
         {/* Toggle + animation */}
-        <section className="mt-3 border border-hairline bg-paper sm:mt-4">
+        <section className="mt-6 border border-hairline bg-paper sm:mt-8">
           <div className="flex flex-col items-center gap-3 border-b border-hairline px-6 py-5">
             <span className="label text-muted-foreground">Net capital flow</span>
             <button
